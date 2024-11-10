@@ -1,12 +1,26 @@
 {
   "compilerOptions": {
     /* Basic Options */
+    
+    // Especifica la versión de ECMAScript a la que se transpilará el código TypeScript."es2015" indica que se generará código compatible con ES6.
     "target": "es2015", 
+    
+    // Define el sistema de módulos que se utilizará."commonjs" es el sistema de módulos utilizado en Node.js.
     "module": "commonjs", 
+    
+    // Indica la carpeta de salida donde se generarán los archivos compilados.
     "outDir": "./dist",   
+    
+    // Especifica la carpeta raíz del código fuente del proyecto."./src" es la ubicación de los archivos TypeScript.
     "rootDir": "./src", 
+    
+    // Habilita todas las comprobaciones de tipo estrictas, mejorando la calidad del código. Ayuda a detectar errores durante la compilación.
     "strict": true,
+    
+    // Permite la compilación incremental, lo que significa que TypeScript solo recompila los archivos que han cambiado desde la última compilación.
     "incremental": true,
-    "tsBuildInfoFile": "./buildcache",
+    
+    // Especifica el archivo donde se almacenarán los datos de compilación incremental."./buildcache" es el nombre del archivo que contendrá la información de la compilación.
+    "tsBuildInfoFile": "./buildcache"
   }
 }
