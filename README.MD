@@ -2,4 +2,4 @@ ignasimgol
 
 Ignasi Muñoz Gol
 
-Breve descripción de lo realizado en esta PEC, dificultades, mejoras realizadas, si hay que tener algo en cuenta a la hora de corregir/ejecutar la practica o cualquier aspecto que queráis destacar.
+No han sido dificultades, pero si que ha sido un pequeño reto tener que usar webpack ya que era mi primera vez haciendo este tipo de procesos. He intentado hacerlo lo mejor posible y el hecho de haber conseguido que el codigo funcione una vez transpilado me hace estar satisfecho con el resultado.
